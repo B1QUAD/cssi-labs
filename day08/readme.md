@@ -1,5 +1,5 @@
 Setting up git on the cloud shell  
-1. Fork the cssi repo (github.com/google/cssi-labs)[https://github.com/google/cssi-labs]
+1. Fork the cssi repo [www.github.com/google/cssi-labs](https://github.com/google/cssi-labs)
 
 2. Use `git remote set-url origin <url>` where <url> is the link that you can get from the your fork's github page download code button (fork page --> green code button --> https --> copy link) Note: If you are an experienced git user and only want to change the upstream URL simply add the `--push` flag after `set-url`
 
