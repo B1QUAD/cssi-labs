@@ -50,7 +50,6 @@ function getColor() {
 
 const createHtmlForNote = (note) => {
     // Create the element and put in the note data
-    // const noteRenderArea = document.querySelector('#app');
     let columnDiv = document.createElement('div');
     columnDiv.classList.add('column');
     columnDiv.classList.add('is-one-quarter');
@@ -79,20 +78,4 @@ const createHtmlForNote = (note) => {
     cardContent.appendChild(content);
 
     return columnDiv;
-    // return `<div class="column is-one-fourth">
-    //             <div class="card ${getColor()}">
-    //                 <header class = "card-header">
-    //                         <p class="card-header-title">
-    //                             Title:<br>${note.title}
-    //                         </p>
-    //                 </header>
-    //                 <div class="card-content">
-    //                     <div class="content">
-    //                         Note:<br>${note.text.length > 0 ? note.text : 'Empty note. (ಥ﹏ಥ)'}
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         </div>`;
-
-    // return `${note.title}, ${note.text} | `
 }

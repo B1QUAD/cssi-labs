@@ -9,7 +9,7 @@ input::placeholder {
 /* Card start*/
 .card {
   overflow: hidden;
-  background: yellow;
+  background: rgb(248, 248, 100);
   /* color: var(--bg); */
 }
 
